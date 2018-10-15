@@ -1,0 +1,33 @@
+                double_0 = False
+                double_1 = False
+                double_2 = False
+                double_3 = False
+                double_4 = False  
+                        if cord_pool_x[index_cord_1] == 0 and double_0 == False:
+                            double_0 = True
+                            index_cord_1 = index_cord_2
+                        elif cord_pool_x[index_cord_1] == 1 and double_1 == False:
+                            double_1 = True
+                            index_cord_2 = index_cord_1
+                        elif cord_pool_x[index_cord_1] == 2 and double_2 == False:
+                            double_2 = True
+                            index_cord_2 = index_cord_1
+                        elif cord_pool_x[index_cord_1] == 3 and double_3 == False:
+                            double_3 = True
+                            index_cord_2 = index_cord_1
+                        elif cord_pool_x[index_cord_1] == 4 and double_4 == False:
+                            double_4 = True
+                            index_cord_2 = index_cord_1
+                        else:
+                            continue
+                    '''
+
+
+            if ship == 1:
+                    ship1_x = x
+                    ship1_y = y
+            elif ship == 2:
+                    check_ship(ship1_x,ship1_y)
+
+
+   
